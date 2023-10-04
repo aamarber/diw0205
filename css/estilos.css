@@ -1,0 +1,42 @@
+/**********************************
+ Practica 0205
+ Diseño de Interfaces WEB
+ Desarrollo de Aplicaciones WEB
+***********************************/
+
+/* reinicio márgenes */
+* { margin: 0px; padding: 0px }
+
+body 
+{
+    font-family: verdana, sans-serif; 
+    font-size: small;
+}
+
+#header 
+{ 
+    background: #CCC; 
+    padding: 15px; 
+}
+
+#footer 
+{
+    padding: 15px; 
+    background: #CCC; 
+}
+
+h2, ul, p 
+{
+    padding: 5px 8px; 
+}
+
+li 
+{
+    list-style: none; 
+    margin: 10px 0; 
+}
+
+li:first-line, p:first-line
+{
+    font-weight: 900;
+}
