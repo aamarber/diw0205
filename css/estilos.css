@@ -13,8 +13,8 @@ body
     font-size: small;
 }
 
-#header 
-{ 
+#header
+{
     background: #CCC; 
     padding: 15px; 
 }
@@ -39,4 +39,30 @@ li
 li:first-line, p:first-line
 {
     font-weight: 900;
+}
+
+#main, #biography, #links, .aside{
+    display: inline-block;
+}
+
+#main{
+    background-color: aqua;
+    width: 60%;
+    margin-right: 5%;
+}
+
+#biography{
+    background-color: sienna;
+    position: relative;
+}
+
+#links{
+    background-color: floralwhite;
+}
+
+.aside{
+    width: 30%;
+    position: absolute;
+    vertical-align: top;
+    right: 0;
 }
